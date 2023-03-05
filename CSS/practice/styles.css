@@ -1,0 +1,40 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(203, 211, 101);
+    background-color: rgba(96, 41, 115);
+    border: 5px solid rgb(233, 60, 141);
+    text-align: center;
+}
+
+p {
+    color: black;
+    background-color: rgba(204, 211, 101);
+    border: 5px solid green;
+    text-align: center;
+}
+
+li {
+    color: purple;
+    list-style: none;
+    display: inline-block;
+}
+
+footer {
+    background: teal;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
