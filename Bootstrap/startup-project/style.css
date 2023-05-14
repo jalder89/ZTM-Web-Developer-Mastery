@@ -12,7 +12,9 @@ html {
 
 h1 {
   color: aliceblue;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
@@ -31,8 +33,28 @@ hr {
   height: 100%;
 }
 
-h1, .btn-primary {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
 }
+
+.btn-primary {
+  color: #fff;
+  --bs-btn-hover-bg: green;
+  --bs-btn-hover-border-color: green;
+}
+
+.btn-primary:hover {
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.buffer {
+  height: 10rem;
+}
+
